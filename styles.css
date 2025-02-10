@@ -1,0 +1,15 @@
+body header {
+  background-color: red;
+}
+body h1 {
+  color: green;
+}
+body main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1480px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,22 @@
+@import 'mixins';
+
+body {
+    header {
+        background-color: red;
+    }
+
+    h1 {
+        color: green;
+    }
+
+    main {
+        @include centrify;
+        @include max-width-param;
+        width: 100%;
+    }
+}
+
+@function getSize($miltiplier: 1) {
+    @return #{$miltiplier * 8}px
+}
+
